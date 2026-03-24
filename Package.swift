@@ -1,4 +1,4 @@
-// swift-tools-version:5.7
+// swift-tools-version:5.9
 import PackageDescription
 
 let versionInfo = "4.1.0"
@@ -18,7 +18,7 @@ let package = Package(
         .binaryTarget(
             name: "GreenPOfferWall",
             url: "https://nexus.adforus.com/repository/greenp_iOS/GreenPOfferWall/\(versionInfo)/GreenpOfferwall.xcframework.zip",
-            checksum: "5d959acabca8f8aca0edbbe1dff89e3d074a18a47561e294d07eeeccb0e848ff"
+            checksum: "cb22cf230edce4dd4aabaf1c7dc9735cb59c00af0a0b6e6ab5986a504a39856e"
         )
     ]
 )
